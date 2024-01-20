@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact Us - J3TAP Consulting Limited</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <img src="images/logo.png" alt="J3TAP Consulting Logo">
+    </header>
+    
+    <section>
+        <address>
+            <p>Suit 2A, Lapal House, Igbosere Road, Lagos Island.<br>
+            Lagos State, Nigeria.</p>
+        </address>
+        <p>Phone: +2348050835361, +2347088757165</p>
+        <p><a href="mailto:jideolaniyan24@gmail.com">jideolaniyan24@gmail.com</a></p>
+
+        <!-- Add a form for message dropping here -->
+        <!-- Add a webchat feature here -->
+    </section>
+
+    <div id="center-column">
+        <!-- Contact Form section -->
+        <section id="contact-form">
+            <h2>Drop your details</h2>
+            <!-- Your contact form HTML goes here -->
+            <form action="https://formspree.io/f/xdoqkqkv" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="Phone No">Phone No:</label>
+                <input type="mobile" id="mobile" name="mobile" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 J3TAP Consulting Limited</p>
+    </footer>
+</body>
+</html>

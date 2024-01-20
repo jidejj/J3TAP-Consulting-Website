@@ -1,0 +1,71 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+#services {
+    padding: 50px;
+}
+
+#about {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+#contact {
+    text-align: center;
+    padding: 50px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form label, form textarea, form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/*#webchat {
+    margin-top: auto; -- Push the webchat to the bottom 
+    align-self: flex-end; -- Align the webchat to the right 
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+} */
